@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "arc-security": {
+      "command": "npx",
+      "args": ["-y", "arc-security-mcp@0.5.1"]
+    }
+  }
+}

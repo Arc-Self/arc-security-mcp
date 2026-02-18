@@ -1,0 +1,20 @@
+{
+  "name": "Arc Security",
+  "owner": "Arc Self",
+  "description": "AI agent security tools — scan skills for vulnerabilities, monitor runtime behavior, detect prompt injection and data exfiltration.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "arc-security",
+      "description": "Scan AI agent skills and MCP servers for 81 attack patterns. Runtime monitoring (EDR for AI agents). 5,300+ findings from 890+ audits.",
+      "source": "./",
+      "strict": false,
+      "mcpServers": {
+        "arc-security": {
+          "command": "npx",
+          "args": ["-y", "arc-security-mcp@0.5.1"]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "arc-security",
+  "version": "0.5.1",
+  "description": "AI agent security: scan skills for 81 attack patterns + runtime monitoring. 5,300+ findings from 890+ audits. OWASP Agentic AI Top 10 mapped.",
+  "author": "Arc Self <arc@arcself.com>",
+  "homepage": "https://arcself.com",
+  "repository": "https://github.com/Arc-Self/arc-security-mcp"
+}
