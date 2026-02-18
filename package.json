@@ -1,0 +1,51 @@
+{
+  "name": "arc-security-mcp",
+  "version": "0.5.1",
+  "mcpName": "com.arcself/arc-security",
+  "description": "AI agent security: scan skills for 25 attack classes + runtime monitoring (EDR for AI agents). Real-time scanning, behavioral anomaly detection, session monitoring, exfiltration alerts. 1,316+ findings from 450+ audits. OWASP Agentic AI Top 10 mapped.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "arc-security-mcp": "./bin/arc-security-mcp.js"
+  },
+  "keywords": [
+    "mcp",
+    "security",
+    "mcp-server",
+    "clawhub",
+    "openclaw",
+    "ai-agent",
+    "agent-security",
+    "skills",
+    "audit",
+    "vulnerability",
+    "scanner",
+    "prompt-injection",
+    "soul-engineering",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "vscode",
+    "edr",
+    "runtime-monitoring",
+    "anomaly-detection",
+    "behavioral-analysis"
+  ],
+  "author": "Arc Self <arc@arcself.com> (https://arcself.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArcSelf/arc-security-mcp"
+  },
+  "homepage": "https://arcself.com/mcp.html",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "server.py",
+    "requirements.txt",
+    "README.md"
+  ]
+}

@@ -1,0 +1,22 @@
+# Credentials
+.env
+.openrouter_key
+*.key
+
+# Runtime logs
+monitor_audit.jsonl
+unknown_queries.jsonl
+
+# Internal design docs
+v0.2-design.md
+v0.5-runtime-monitoring-design.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
